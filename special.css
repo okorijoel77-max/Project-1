@@ -1,0 +1,26 @@
+.w3-padding-64{
+  font-weight:bold;
+  color:navy;
+  font-size:30px;
+  font-family: "Times New Roman", serif;
+  text-decoration: underline;
+}
+.w3-sidebar{
+  background-color:pink;
+}
+.w3-bar-item{
+  color: navy;
+}
+.w3-jumbo{
+  font-family: 'Dancing Script', cursive;
+  color: red;
+  font-size: 15px;
+}
+.w3-jumbo2{
+  font-family: 'Dancing Script', cursive;
+  letter-spacing: 20px;
+  text-shadow: 2px 2px tomato;
+}
+.date{
+  margin-top:20px;
+}
