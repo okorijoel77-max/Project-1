@@ -1,0 +1,101 @@
+ body{
+        background-color:black;
+        margin:0;
+      }
+ h2{
+        font-size: 30px;
+        font-weight: bold;
+      }
+        
+.sidebar {
+      position: fixed;
+      top: 80px;
+      left: 0;
+      width: 150px;
+      height: 70%;
+      background: black;
+      color: white;
+      text-align: left;
+      font-size: 1.25rem; 
+      padding: 20px;
+      border-radius: 0 0 25px 0;
+      transition: transform 0.3s ease;
+    }
+.sidebar a {
+      display: block;
+      padding: 15px;
+      background-color: none;
+      color: white;
+      text-decoration: none;
+    }
+
+.sidebar a:hover {
+      background: rgba(255,255,255,0.2);
+      border-radius: 20px;
+    }
+      
+ .collapsed {
+      transform: translateX(-100%);
+    }
+      
+ .cdn1{
+        color: tomato;
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      border: none;
+      padding: 10px 15px;
+      cursor: pointer;
+      font-size: 20px;
+      z-index: 1000;
+    }
+ .cdn2{
+      color: white;
+      position: fixed;
+      top: 10px;
+      right: 3px;
+      margin-right:50px;
+      border: none;
+      padding: 10px 15px;
+      cursor: pointer;
+      font-size: 20px;
+      z-index: 1000;
+    }
+ .cdn3{
+      color: white;
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      border: none;
+      padding: 10px 15px;
+      cursor: pointer;
+      font-size: 20px;
+      z-index: 1000; 
+    }
+    .cont1 img{
+      width:80px;
+      height:80px;
+      border:solid 1px red;
+      border-radius: 50%;
+      padding-bottom:0;
+      justify-self: center;
+    }
+    .cont1 h3{
+      padding-top: 0;
+      color: tomato;
+    }
+    
+    .nav-tags a{
+      color: gray;
+      padding: 5px;
+      font-size: 12px;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      gap: 10px;
+    }
+    .nav-tags a:hover{
+      color: white;
+      text-decoration: underline;
+      text-decoration-color: red;
+    }

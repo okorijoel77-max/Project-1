@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>Blog_Bb9ja</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="bbn.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap">
+  </head>
+  
+  <body>
+    
+        <!-----------Menu/Sidebar---------->
+    <div class="top-cont" style="background-color:black; padding:3px; margin-bottom:5px; text-align:center;">
+      <i class="cdn1 fa-solid fa-bars" onclick="toggleSidebar()"></i>
+      <h2 style="color:white;">Jettah's<span style="color:white; background-color:tomato; border-radius:2px;">Empire</span></h2>
+      <i class="cdn2 fa-solid fa-magnifying-glass"></i>
+      <i class="cdn3 fa-solid fa-user-circle"></i>
+    </div>
+     
+    <div id="mySidebar" class="sidebar collapsed">
+     <a href="#">Homepage</a>
+     <a href="#">Services</a>
+     <a href="#">Nature</a>
+     <a href="#">Contact</a>
+    </div>
+    
+    <!------------Grid images1------------>
+    <div class="cont1" style="width:100%; display:grid; grid-template-columns:1fr 1fr 1fr 1fr; gap-between:5px; text-align:center;">
+       <img src="home.jpg" alt="home image">
+       <img src="home.jpg" alt="home image">
+       <img src="home.jpg" alt="home image">
+       <img src="home.jpg" alt="home image">
+       <h3>Front</h3>
+       <h3>Back</h3>
+       <h3>Left</h3>
+       <h3>Right</h3>
+    </div>
+    <nav class="nav-tags" style="margin-top:10px; width:100%; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;">
+      <a href="#">Following</a>
+      <a href="#">sports</a>
+      <a href="#">politics</a>
+      <a href="#">Entertainment</a>
+      <a href="#">News</a>
+      <a href="#">Gossips</a>
+    </nav>
+    <div class="mySlide" style="width:auto; border:1px solid;">
+      <div id="slide1">
+        <img src="bed.jpg" alt="bed image" width="100px" height="100px">
+      </div>
+    </div>
+  <script>
+    function toggleSidebar() {
+      document.getElementById("mySidebar").classList.toggle("collapsed");
+    }
+  </script>
+  </body>
+</html>
